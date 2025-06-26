@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Start Screen -->
+   <div class="quiz-container">
+    <div id="start-screen">
+    <h1>Tarih Quiz'ine Hoş Geldiniz!</h1>
+    <button id="start-btn">Başla</button>
+    </div>
+    <!--Question Screen-->
+    <div id="quiz-screen" class="hidden">
+    <div id="timer">Kalan süreniz: 15s</div>
+    <h2 id="question"></h2>
+    <div id="options"></div>
+   </div>
+   <!-- Result Screen -->
+    <div id="result-screen" class="hidden">
+        <h2>Sonuçlar</h2>
+        <p id="score"></p>
+        <button id="restart-btn">Yeniden Başla</button>
+        <button id="leaderboard-btn">Liderlik Sıralaması</button>
+    </div>
+    <!--Leaderboard Screen-->
+    <div id="leaderboard-screen">
+      <h2>Liderlik Sıralaması</h2>
+      <ul id="leaderboard"></ul>
+      <button id="back-btn">Geri Dön</button>
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
