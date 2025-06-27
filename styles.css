@@ -39,11 +39,3 @@ button:hover {
   font-weight: bold;
   color: #e74c3c;
 }
-.correct { 
-    animation: flash-green 0.5s; 
-}
-.wrong {
-     animation: flash-red 0.5s; 
-    }
-@keyframes flash-green { 0%, 100% { background: none; } 50% { background: #28a745; } }
-@keyframes flash-red { 0%, 100% { background: none; } 50% { background: #dc3545; } }
